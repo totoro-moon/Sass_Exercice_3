@@ -1,0 +1,8 @@
+@mixin deco_jaune {
+  text-decoration: overline;
+  color: #fff200;
+}
+.corps--p1
+  li{
+    @include deco_jaune;
+    }
